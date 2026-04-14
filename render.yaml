@@ -7,6 +7,6 @@ services:
     startCommand: node server.js
     envVars:
       - key: GEMINI_KEY
-        value: AIzaSyBpfqbUNe0PVDm0qNMqA47OPsJtyP4FD9U
+        value: AIzaSyA_bsRIVG9pwGes7fq2Tup9C20ybnEyRkM
       - key: NODE_ENV
         value: production
