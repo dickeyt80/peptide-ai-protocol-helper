@@ -7,6 +7,8 @@ services:
     startCommand: node server.js
     envVars:
       - key: GEMINI_KEY
-        value: AIzaSyDdUMxzzxES-UcbW7gHQd36iFi36nzJ0Xo
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
       - key: NODE_ENV
         value: production
