@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: peptide-ai-protocol-helper
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: GEMINI_KEY
+        value: AIzaSyBpfqbUNe0PVDm0qNMqA47OPsJtyP4FD9U
+      - key: NODE_ENV
+        value: production
